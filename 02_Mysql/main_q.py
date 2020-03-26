@@ -29,17 +29,10 @@ if __name__ == '__main__':
     # =======================================================
     # Q.2
     #取得した dict型をpandas形式に変換するプログラムを作成せよ
+
+
+    # =======================================================
+    # Q.3
+    #取得した pandas型データを地図上にプロットするプログラムを作成せよ
+    # ヒント：foliumを使用します
     
-
-    ####################################
-    # map init
-    LAT = df.latitude.iloc[0]
-    LNG = df.longitude.iloc[0]
-    m = folium.Map(location=[LAT, LNG])
-
-    # mapping
-    for i in range(len(df)):
-        folium.Marker(location = [df.latitude.iloc[i], df.longitude.iloc[i]], popup = "DATE:{}".format(df.DATE.iloc[i])).add_to(m)
-
-    # save
-    m.save("./output/Map.html")
