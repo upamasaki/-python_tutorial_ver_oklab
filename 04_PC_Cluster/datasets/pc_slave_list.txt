@@ -1,0 +1,2 @@
+172.31.19.150, tani, 0gur11a6, pc_slave01_main.bat 
+172.31.19.192, hashimoto, 0gur11a6, pc_slave02_main.bat 
