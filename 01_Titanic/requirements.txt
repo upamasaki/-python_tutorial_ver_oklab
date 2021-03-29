@@ -52,7 +52,7 @@ Pillow==6.0.0
 progressbar2==3.38.0
 prometheus-client==0.7.1
 prompt-toolkit==3.0.3
-pygments==2.2.0
+pygments==2.7.4
 pylint==2.4.4
 PyMySQL==0.9.3
 pyparsing==2.4.6
